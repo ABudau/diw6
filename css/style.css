@@ -3,17 +3,7 @@
     box-sizing: border-box;
 }
 
-.fondobody{
-    background-image: url(../img/11.png);
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position-x: right;
-    /* background-position:bottom;
-    background-position-y: bottom;
-    /* width: 50vh; */
-    /* height: auto; */
-    bottom: 0vh; 
-}
+
 .divmitad{
     width: 50vw;
 }
@@ -25,6 +15,10 @@
 }
 .contenedor{
     width: 100vw;
+    height: 100vh;
+    background-image: url(../img/11.png);
+    background-repeat:no-repeat;
+    background-position: bottom right;
 } 
 footer{
     height: 10vh;
@@ -34,7 +28,7 @@ footer{
     position: absolute;
 }
 footer img{
-    height: 75%;
+    height: 50%;
     width: auto;
     position: absolute;
 }
@@ -51,17 +45,14 @@ footer img{
     background-repeat:no-repeat;
     height: 50vh;
     width: 50vw;
-    /* position: fixed; */
 }
 .divcentrado{
     height: 40vh;
     width: 40vw;
-    border: 1px solid blue;
     top:30vh;
     left:30vw;
-    position: absolute;
+    position: fixed;
     background-image: url(../img/h3.jpg);
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
